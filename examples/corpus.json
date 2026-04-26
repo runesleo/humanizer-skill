@@ -1,0 +1,156 @@
+{
+  "version": 1,
+  "description": "Synthetic before/after pairs for regression-style checks on humanizer rewrites. No real PII; not sourced from private vault exports.",
+  "entries": [
+    {
+      "id": "en-001",
+      "pattern": "significance_puff",
+      "before": "The API versioning policy was adopted in Q2, marking a pivotal moment in our engineering culture and underscoring our commitment to long-term maintainability in an evolving technical landscape.",
+      "after": "We adopted API versioning in Q2 so clients could migrate without surprise breaks."
+    },
+    {
+      "id": "en-002",
+      "pattern": "notability_list",
+      "before": "The framework has been discussed on Hacker News, Reddit, and several podcasts. It maintains an active social media presence and has been starred by thousands of developers.",
+      "after": "It’s on GitHub with a lot of stars; people argue about it the way they argue about every new framework."
+    },
+    {
+      "id": "en-003",
+      "pattern": "superficial_ing",
+      "before": "The dashboard uses a dark theme, reflecting modern design trends while ensuring readability and fostering a sense of focus among users navigating complex data.",
+      "after": "Dark theme by default; we picked it because squinting at charts at 11pm was getting old."
+    },
+    {
+      "id": "en-004",
+      "pattern": "promotional",
+      "before": "This breathtaking CLI tool, nestled in the heart of the devtools ecosystem, boasts a vibrant community and showcases a profound commitment to developer experience.",
+      "after": "It’s a small CLI that wraps three annoying flags into one. Saves me maybe five minutes a day."
+    },
+    {
+      "id": "en-005",
+      "pattern": "vague_attribution",
+      "before": "Industry experts widely agree that observability is crucial. Many thought leaders have noted that metrics alone are insufficient without context.",
+      "after": "Everyone says you need observability until the bill arrives. Metrics without context are just expensive wallpaper."
+    },
+    {
+      "id": "en-006",
+      "pattern": "rule_of_three",
+      "before": "Good documentation is clear, concise, and comprehensive. It informs, educates, and empowers. It reduces confusion, speeds onboarding, and builds trust.",
+      "after": "Good docs answer the question you actually have, not the three questions the author wishes you had."
+    },
+    {
+      "id": "en-007",
+      "pattern": "em_dash_overuse",
+      "before": "We shipped the fix — a one-line change — after a long night — honestly longer than it should have taken — and the outage ended — finally.",
+      "after": "We shipped a one-line fix after a night that felt longer than it should’ve. The outage stopped."
+    },
+    {
+      "id": "en-008",
+      "pattern": "soulless_neutral",
+      "before": "The experiment produced interesting results. Latency improved. Some stakeholders were pleased while others requested further analysis. The implications remain unclear.",
+      "after": "Latency got better and half the room acted like we’d cured cancer. The other half wanted another week of charts. I’m in the boring middle again."
+    },
+    {
+      "id": "en-009",
+      "pattern": "ai_vocab",
+      "before": "By leveraging a holistic approach, we can unlock synergies and foster a paradigm shift in how we operationalize best practices across the organization.",
+      "after": "We should pick three practices people will actually follow instead of rolling out twelve nobody reads."
+    },
+    {
+      "id": "en-010",
+      "pattern": "negative_parallelism",
+      "before": "This is not merely a tool; it is not simply a library; it is not just another dependency—it is a comprehensive platform.",
+      "after": "It’s another dependency, but it replaces three worse ones."
+    },
+    {
+      "id": "en-011",
+      "pattern": "delving_tapestry",
+      "before": "Delving into the rich tapestry of configuration options reveals an intricate interplay between flexibility and complexity.",
+      "after": "The config page is long. Most of it you’ll never touch unless something breaks."
+    },
+    {
+      "id": "en-012",
+      "pattern": "sycophantic",
+      "before": "That is an excellent and insightful question, and I appreciate you raising this important topic for us to explore together.",
+      "after": "Good question—here’s the short answer."
+    },
+    {
+      "id": "zh-001",
+      "pattern": "significance_puff",
+      "before": "本次发布不仅是功能迭代，更是团队在工程卓越道路上迈出的关键一步，标志着我们对长期可维护性的坚定承诺，具有深远的战略意义。",
+      "after": "这次发布主要是把支付回调的重试逻辑修对了，顺便加了监控。"
+    },
+    {
+      "id": "zh-002",
+      "pattern": "promotional",
+      "before": "本产品坐拥 vibrant 生态与 stunning 性能表现，深度融合前沿理念，为用户带来 breathtaking 体验。",
+      "after": "启动比上个版本快一截，设置里终于能关推送了。"
+    },
+    {
+      "id": "zh-003",
+      "pattern": "superficial_ing",
+      "before": "新首页采用极简视觉语言，在强化品牌认知的同时，赋能用户更高效地获取信息，体现了以用户为中心的设计理念。",
+      "after": "首页少了一堆横幅，常用入口提到上面，我不用往下扒三屏。"
+    },
+    {
+      "id": "zh-004",
+      "pattern": "vague_attribution",
+      "before": "业内人士认为，数字化转型势在必行；多方数据显示，智能化升级已成为企业发展的必由之路。",
+      "after": "老板们爱说「数字化转型」，落地多半是买个 SaaS 再骂接口难用。"
+    },
+    {
+      "id": "zh-005",
+      "pattern": "rule_of_three",
+      "before": "优秀文档应做到清晰、简洁、全面；既要易懂，又要严谨，还要可检索。",
+      "after": "好文档的标准只有一个：我卡住时能搜到答案。"
+    },
+    {
+      "id": "zh-006",
+      "pattern": "soulless_neutral",
+      "before": "实验取得了一定成果。部分同事表示乐观，也有人建议继续观察。整体影响尚待评估。",
+      "after": "数据好看了一点，但样本太小，我反而不敢太乐观。"
+    },
+    {
+      "id": "zh-007",
+      "pattern": "ai_vocab",
+      "before": "我们需要以 holistic 视角 leverage 现有能力，unlock 组织潜能，实现 synergistic 增长。",
+      "after": "别同时开五个项目了，先把结账链路跑稳。"
+    },
+    {
+      "id": "zh-008",
+      "pattern": "notability_list",
+      "before": "该项目已被多家科技媒体报导，并在开发者社区引发热烈讨论，GitHub star 数持续攀升，彰显其广泛影响力。",
+      "after": "仓库 star 不少，真正在生产里用的没几个敢拍胸脯。"
+    },
+    {
+      "id": "en-013",
+      "pattern": "conclusion_stock",
+      "before": "In conclusion, it is important to remember that balance is essential, and stakeholders should weigh the benefits and risks carefully moving forward.",
+      "after": "So: ship the small fix first, argue about the roadmap after coffee."
+    },
+    {
+      "id": "en-014",
+      "pattern": "over_structured",
+      "before": "First, we will examine the background. Second, we will analyze the issue. Third, we will propose recommendations. Finally, we will summarize key takeaways.",
+      "after": "Here’s what broke, why it hurt, and what I’d change next week."
+    },
+    {
+      "id": "en-015",
+      "pattern": "false_precision",
+      "before": "Approximately 73.2% of respondents somewhat agreed that the experience was relatively satisfactory in most observed scenarios.",
+      "after": "Most people said it was fine until you asked follow-up questions."
+    },
+    {
+      "id": "en-016",
+      "pattern": "passive_voice_stack",
+      "before": "It was decided that the deployment would be performed, and it was noted that the rollback could be initiated if anomalies were observed.",
+      "after": "We’ll deploy tonight. If metrics go weird, we roll back—no heroics."
+    },
+    {
+      "id": "zh-009",
+      "pattern": "conclusion_stock",
+      "before": "综上所述，各方应充分认识形势的严峻性与机遇的宝贵性，统筹兼顾、协同推进，确保各项工作落到实处、取得实效。",
+      "after": "先别写小作文了，今晚把告警阈值调对再说。"
+    }
+  ]
+}
