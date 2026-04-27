@@ -1,5 +1,9 @@
 # Humanizer Skill
 
+**English:** [README.en.md](./README.en.md)
+
+---
+
 单文件 Claude Code Skill：按维基百科「AI 写作迹象」框架识别并改写常见 AI 腔，并在去模板化同时强调节奏、观点与「人味」。
 
 ## When to use

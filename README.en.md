@@ -1,5 +1,9 @@
 # Humanizer Skill
 
+**中文:** [README.md](./README.md)
+
+---
+
 A single-file Claude Code skill. It rewrites prose using Wikipedia’s “Signs of AI writing” pattern set, then pushes the result toward natural rhythm, opinions, and human voice—not just “clean” text.
 
 ## When to use
